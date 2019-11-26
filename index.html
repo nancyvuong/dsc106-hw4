@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leonardo's Charts</title>
+    <link rel="icon" type="image/png" href="assets/logo.png"  />
+    <!-- Internal stylesheet import -->
+    <link rel="stylesheet" href="main.css">
+    <!-- External Script -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/timeline.js"></script>
+    <script src="https://code.highcharts.com/modules/treemap.js"></script>
+    <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+  </head>
+  <body>
+    <!-- Page Header Table -->
+    <table class="simpleTable" border="2">
+      <tr>
+        <td width="5%"><img src="assets/logo.png" alt="Legoland logo" width = "100" height = "100" class="pageLogo"/></td>
+        <td width="15%"><h1>Leonardo Dicaprio</h1></td>
+      </tr>
+    </table>
+
+    <!-- Chart Placement Table -->
+    <table class="simpleTable greaterArea">
+      <tr>
+          <div id = "sharedGrid"></div>
+          <td rowspan="2">  
+          <div id ="sharedGrid1"></div>
+          </td>
+          <td>
+            <div id="sharedGrid2"></div>
+          </td>
+        
+      </tr>
+
+      <tr>
+        <td id="pieGrid"></td>
+      </tr>
+    </table>
+
+    <!-- Internal JS Import -->
+    <script src="main.js"></script>
+  </body>
+</html>
