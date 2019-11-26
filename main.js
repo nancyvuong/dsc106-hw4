@@ -9,7 +9,7 @@ Highcharts.chart('sharedGrid', {
         visible: false
     },
     title: {
-        text: "Timeline of Dicaprio's Oscar Nominations"
+        text: "Timeline of DiCaprio's Oscar Nominations"
     },
     subtitle: {
         text: "Until Finally He Won One"
@@ -159,6 +159,6 @@ Highcharts.chart('sharedGrid2', {
         name: 'Occurrences'
     }],
     title: {
-        text: 'Genre of Films Dicaprio Starred In'
+        text: 'Genre of Films DiCaprio Starred In'
     }
 });
